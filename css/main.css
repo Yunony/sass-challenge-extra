@@ -1,0 +1,56 @@
+/*variables*/
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  margin-left:10em;
+  width: 750px;
+}
+
+/*nesting*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*Inheritance*/
+.message, .success, .error{
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+/*expressions */
+.item-1 {
+  width: 10em;
+}
+
+.item-2 {
+  width: 20em;
+}
+
+.item-3 {
+  width: 30em;
+}
+
+/*functions */
+
+html {
+  width: 33.33333%;
+}
